@@ -104,3 +104,36 @@ h2 {
     background-color: $font-color3;
 }
 }
+
+@media (max-width: 991px){
+    .splash{
+    height: 100%;
+    }
+    nav {
+        font-size: 12px;
+    }
+    .splash-inner h1, .splash-inner h2 {
+        font-size: 30px;
+    }
+    .splash-inner .btn-one {
+       font-size: 12px;
+        width: 30%;
+        padding: 5px;
+    }    
+}
+
+@media (min-width: 992px) {
+
+    .splash{
+        height: 100%;
+        }
+        nav {
+            font-size: 12px;
+        }
+        .splash-inner .btn-one {
+            padding: 5px;
+             width: 20%;
+
+    }    
+
+}
