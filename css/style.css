@@ -1,3 +1,19 @@
+/*global*/
+body {
+  margin: 0;
+  line-height: 1.7;
+  font-size: 46px;
+  font-family: "Source Sans 3", sans-serif;
+  color: #030306;
+}
 
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(https://i.postimg.cc/KjTcDKg7/Background-Image.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBUUE7RUFDSSxTQUFBO0VBQ0EsZ0JBQUE7RUFDQSxlQUFBO0VBQ0Esd0NBVlE7RUFXUixjQVRVO0FDR2Q7O0FEU0E7RUFDSSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSx5RUFBQTtFQUNBLGtDQUFBO0VBQ0Esc0JBQUE7RUFDQSw0QkFBQTtBQ05KIiwiZmlsZSI6InN0eWxlLmNzcyJ9 */

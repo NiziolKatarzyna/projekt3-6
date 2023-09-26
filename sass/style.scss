@@ -1,0 +1,25 @@
+/*global*/
+$font-title:'Playfair Display', serif;
+$font-text: 'Source Sans 3', sans-serif;
+$font-color1:#fff;
+$font-color2: #030306;
+$font-color3: #fed136;
+
+
+body {
+    margin: 0;
+    line-height: 1.7;
+    font-size: 46px;
+    font-family: $font-text;
+    color: $font-color2;
+}
+
+.splash {
+    height: 100vh;
+    position: relative;
+    background-image: url(https://i.postimg.cc/KjTcDKg7/Background-Image.png);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
