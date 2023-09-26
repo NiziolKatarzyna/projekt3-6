@@ -19,6 +19,7 @@ body {
 .btn {
     display: flex;  
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .splash {
@@ -31,7 +32,7 @@ body {
 }
 nav {
     font-size: 14px;
-    margin-bottom: 50px;
+   
   
 
     .col-4 {
@@ -65,44 +66,44 @@ nav {
 }
 
 .splash-inner {
-    padding-top: 20px;//
+    padding-top: 20px;
+    padding-bottom: 20px;
 
-
-h1 {
-    font-size: 40px;
-    color: $font-color1;
-    font-style: italic;
-    text-align: center;
-    margin: 10px;
-    font-family: $font-title;
-}
-h2 {
-    font-size: 75px;
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px;
-    color: $font-color1;
-    font-family: $font-title;
-}
-
-.btn-one {
-    width: 15%;
-    margin: 24px auto 0 auto;
-    padding: 16px;
-    border-radius: 5px;
-    font-family: $font-text;
-    font-size: 18px;
-    text-align: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: $font-color1;
-    cursor: pointer;
-    border-width: 2px;
-    border-style: solid;
-    border-color: $font-color3;
-    background-color: $font-color3;
-}
+    h1 {
+        font-size: 40px;
+        color: $font-color1;
+        font-style: italic;
+        text-align: center;
+        margin: 10px;
+        font-family: $font-title;
+    }
+    h2 {
+        font-size: 75px;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 10px;
+        color: $font-color1;
+        font-family: $font-title;
+    }
+    .btn-one {
+        width: 15%;
+        margin: 24px auto 0 auto;
+        padding: 16px;
+        border-radius: 5px;
+        font-family: $font-text;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $font-color1;
+        cursor: pointer;
+        border-width: 2px;
+        border-style: solid;
+        border-color: $font-color3;
+        background-color: $font-color3;
+        
+    } 
 }
 
 @media (max-width: 991px){
