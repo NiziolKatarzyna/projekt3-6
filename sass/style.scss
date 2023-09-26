@@ -5,13 +5,20 @@ $font-color1:#fff;
 $font-color2: #030306;
 $font-color3: #fed136;
 
+*,::before, *::after {
+    Box-sizing: border-box;
+}
 
 body {
     margin: 0;
-    line-height: 1.7;
     font-size: 46px;
     font-family: $font-text;
     color: $font-color2;
+}
+
+.btn {
+    display: flex;  
+    justify-content: center;
 }
 
 .splash {
@@ -22,4 +29,78 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+nav {
+    font-size: 14px;
+    margin-bottom: 50px;
+  
 
+    .col-4 {
+       p {
+           font-style: italic;
+           font-size: 26px;
+           color: #fed136;
+           line-height: 41px;
+           text-align: left;
+           margin-top: 14px;
+           font-family: $font-title;
+       }
+    }
+     .col-8 {
+       line-height: 41px;
+       text-align: center;
+       align-items: center;
+       font-weight: 600;
+     }
+   
+   ul {
+       list-style: none;
+     
+       li a {
+           text-decoration: none;
+           text-transform: uppercase;
+           color: $font-color1
+           
+       }
+   }
+}
+
+.splash-inner {
+    padding-top: 20px;//
+
+
+h1 {
+    font-size: 40px;
+    color: $font-color1;
+    font-style: italic;
+    text-align: center;
+    margin: 10px;
+    font-family: $font-title;
+}
+h2 {
+    font-size: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+    color: $font-color1;
+    font-family: $font-title;
+}
+
+.btn-one {
+    width: 15%;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    border-radius: 5px;
+    font-family: $font-text;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: $font-color1;
+    cursor: pointer;
+    border-width: 2px;
+    border-style: solid;
+    border-color: $font-color3;
+    background-color: $font-color3;
+}
+}
