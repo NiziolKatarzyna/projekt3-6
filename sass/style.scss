@@ -222,6 +222,34 @@ nav {
          }
         }
 
+//footer//
+.page-footter{
+
+    p{
+        color: #555555;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+        letter-spacing: -0.35px;
+        margin-top: 25px;
+    }
+    .col-md-4 .row {
+        justify-content: center;
+    }
+    i {
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        cursor: pointer;
+        background: $font-color2 ;
+        line-height: 40px;
+        text-align: center;
+        color: $font-color1;
+        }
+}
 
 @media (max-width: 991px){
     .splash{
