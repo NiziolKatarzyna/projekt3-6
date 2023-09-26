@@ -108,7 +108,38 @@ nav {
     } 
 }
 
+//intro//
+.intro {
+    background-color: $font-color1;
 
+    .col-12 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        h3{
+            color: $font-color2;
+            font-size: 40px;
+            font-weight: 800;
+            line-height: 75px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            font-family: $font-title;
+            margin-bottom: 0;
+        
+        }
+        
+        p {
+        color: $font-color4;
+        font-size: 16px;
+        font-style: italic;
+        font-family: $font-text;
+        text-align: center;
+        margin-top: 0;
+        }
+    }
+}
 
 
 
