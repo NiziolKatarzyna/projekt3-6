@@ -140,6 +140,7 @@ nav {
 
 //products//
 .product {
+  margin-bottom: 50px;
   .col-md-4 {
     display: flex;
     flex-direction: column;
@@ -182,17 +183,18 @@ nav {
 //portfolio/
 .portfolio {
   background-color: #f7f7f7;
-  ul {
-    list-style: none;
-  }
+  padding-bottom: 50px;
 
-  li {
-    text-align: center;
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     img {
-      width: 100%;
-      height: 100%;
+      width: auto;
       object-fit: cover;
+      padding-top: 50px;
+      padding-bottom: 50px;
     }
 
     h4 {
