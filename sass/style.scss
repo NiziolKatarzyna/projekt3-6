@@ -230,7 +230,10 @@ nav {
     margin-top: 25px;
   }
   .col-md-4 .row {
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
   i {
     height: 40px;
@@ -265,6 +268,13 @@ nav {
 
   .intro .col-12 h3 {
     font-size: 30px;
+  }
+
+  .page-footter .col-md-4 .row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
   }
 }
 
