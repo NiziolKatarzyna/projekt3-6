@@ -41,21 +41,25 @@ body {
 nav {
   font-size: 14px;
 
-  .col-4 {
-    p {
-      font-style: italic;
-      font-size: 26px;
-      color: #fed136;
-      line-height: 41px;
-      text-align: left;
-      margin-top: 14px;
-      font-family: $font-title;
-    }
+  .col-md-4 {
+    display: flex;
   }
-  .col-8 {
+  .col-md-4 p {
+    font-style: italic;
+    font-size: 26px;
+    color: #fed136;
+    line-height: 41px;
+    text-align: left;
+    margin-top: 14px;
+    font-family: $font-title;
+  }
+
+  .col-md-8 {
+    display: flex;
     line-height: 41px;
     text-align: center;
     align-items: center;
+    justify-content: end;
     font-weight: 600;
   }
 
@@ -66,6 +70,22 @@ nav {
       text-decoration: none;
       text-transform: uppercase;
       color: $font-color1;
+    }
+  }
+  .col-8 {
+    display: flex;
+    justify-content: end;
+    i {
+      height: 60px;
+      width: 60px;
+      font-size: 30px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      background: transparent;
+      line-height: 68px;
+      text-align: end;
+      color: $font-color3;
+      display: none;
     }
   }
 }
@@ -262,6 +282,12 @@ nav {
   }
   nav {
     font-size: 12px;
+    .col-7 {
+      display: none;
+    }
+    .col-8 i {
+      display: flex;
+    }
   }
   .splash-inner h1,
   .splash-inner h2 {
